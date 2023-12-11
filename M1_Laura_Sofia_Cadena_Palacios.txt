@@ -1,0 +1,175 @@
+
+1. NombreAlgoritmo: Conversión de unidades de longitud
+
+Entradas:
+-Un numero real en centimetros.
+
+Salida:
+-Un numero real en pulgadas.
+
+Pasos:
+1. Leer el numero en centimetros.
+2. Dividir el numero en centimetros entre 2,54 cm que equivale una pulagada.
+3. Mostrar el resultado en pulgadas.
+
+
+
+
+2. NombreAlgoritmo: Hora futura
+
+Entradas:
+-Hora actual
+-Cantidad de horas que se va a adicionar
+
+Salida:
+-Numero real en horas.
+
+Pasos:
+1.Leer la hora actual.
+2. Leer la cantidad de horas a adicionar.
+3. Sumar la hora actual mas la cantidad de horas a adicionar. Si el numero es menor o igual que 24 entonces el resultado de la hora final es la suma entre 
+estos dos.
+4. Si por el contrario la suma de los dos valores es mayor que 24, entonces se divide entre 24 horas que tiene un dia. Del resultado la parte entera
+corresponde al valor de los dias transcurridos. El valor de la parte decimal multiplicada por 24 nos da el valor final de la hora.
+4. Mostrar el valor de la hora final.
+
+
+
+
+3. NombreAlgoritmo: Qué nota necesito
+
+Entradas:
+-Nota del primer y segundo certamen.
+-Nota del laboratorio.
+
+Salida:
+-Nota minima del tercer certamen.
+
+Pasos.
+1. Leer nota del primer y segundo certamen.
+2. Leer la nota del laboratorio.
+3. Reemplazar la nota total del certamen (Nc) en la formula de la nota final (Nf).
+4. Despejamos la nota del certamen 3.
+5. Mostramos la nota minima del certamen 3.
+
+
+
+
+4. NombreAlgoritmo: numero invertido.
+
+Entrada:
+-Numero entero de tres digitos
+
+Salida:
+-Numero entero de tres digitos a la inversa
+
+Proceso:
+1. Leer el numero de 3 digitos.
+2. Dividir el numero de 3 digitos entre 10 y tomar el residuo.
+3. Dividir el numero de 3 digitos entre 10. Tomar la parte entera y dividirla entre 10. Tomar el residuo.
+4. Dividir el numero de 3 digitos entre 10. Tomar la parte entera y dividirla entre 10. Tomar la parte entera y dividirla nuevamente entre 10. Tomar el residuo.
+5. Multiplicar la primera variable por 100, la segunda por 10 y la tercera por 1.
+6. Sumar el total de las 3 variables.
+7. Mostrar el resultado.
+
+
+
+
+5. NombreAlgoritmo: años bisiestos
+
+Entrada: año en numero entero
+
+Salida: mensaje que verifica si el año es bisiesto o no.
+
+Proceso:
+1.Leer el año
+2.Si el año es menor que 1582 entonces el año es bisiesto únicamente si el residuo del año entre 4 es 0.
+3.Si el año es mayor que 1582 entonces el año es bisiesto únicamente si el residuo del año entre 4 es 0 o 
+el residuo del año entre 400 es 0 y el residuo entre 100 es diferente es 0.
+4.Mensaje que indica si el año es bisiesto o no.
+
+
+
+
+6. NombreAlgoritmo: edad
+
+Entradas: 
+-Dia, mes, año de nacimiento y dia, mes y año actual.
+
+Salida:
+-Edad actual
+Proceso:
+
+1. Realizar la diferencia entre el dia actual y el dia de nacimiento para obtener el dia en edad actual.
+2. Realizar la diferencia entre el mes actual y el mes de nacimiento para obtener el mes en edad actual.
+3. Realizar la diferencia entre el año actual y el año de nacimiento para obtener el año en edad actual.
+4. Si la diferencia del dia en edad actual es menor que 0 quiere decir que no se ha cumplido un mes completo 
+y por lo tanto el mes en edad actual debe ser 1 menos. De la misma manera para el dia en edad actual, su 
+resultado debe ser la resta entre los 30 dias del mes menos la diferencia entre el dia de cumpleaños y el dia actual. 
+A esa diferencia se le aplico el valor absoluto para que se reste esa cifra a los 30 dias del mes.
+5. Si la diferencia entre el mes actual y el mes de nacimiento es negativa, entonces no se ha cumplido el mes completo
+y por lo tanto el mes en edad actual es la diferencia de los 12 meses del año con la diferencia entre el mes
+de nacimiento y el mes actual.
+6. Si el dia actual es menor que el dia de nacimiento y el mes actual es igual al mes de nacimiento, entonces 
+aun no se ha cumplido un año mas y por tanto el año en edad actual es la diferencia entre el año actual menos
+el año de nacimiento y menos el año que aun no se ha cumplido.
+7. Si el dia actual es mayor que el dia de nacimiento y ademas el mes actual es menor que el dia de nacimiento, entonces 
+aun no se ha cumplido un año mas y por tanto el año en edad actual es la diferencia entre el año actual menos
+el año de nacimiento y menos el año que aun no se ha cumplido.
+8. Mostrar la edad actual.
+
+
+
+
+7. NombreAlgoritmo: numero par
+
+Entrada:
+-Un numero real
+
+Salida:
+-Numero par o impar
+
+Proceso:
+
+1. Leer el numero y verificar que sea diferente de 0.
+2. Si el numero es diferente de 0, entonces dividir el numero entre 2. Tomar el residuo.
+3. Si el residuo es igual que 0 el numero es par. Si el residuo es diferente de 0, el numero es impar.
+4. Mostrar el resultado.
+
+
+
+
+8. NombreAlgoritmo: tiempo
+
+Entrada:
+-Tramos de viaje
+
+Salida:
+-Tiempo total de viaje en formato horas:minutos.
+
+Proceso:
+
+1. Leer el numero real del tramo 1 y verificar si es mayor que 0. Si el numero es igual a 0, finaliza el proceso. Sino continua hasta que el siguiente tramo sea 0.
+2. Sumar los numeros reales de cada tramo. 
+3. Multiplicar la suma por 60. Tomar la parte entera. Esa corresponde al total de horas de viaje.
+4. Tomar el residuo y multiplicarlo por 60. Esa corresponde al total de minutos de viaje total.
+5. Mostrar el resultado en formato horas y minutos en pantalla.
+
+
+
+
+9. NombreAlgoritmo: parte decimal.
+
+Entrada:
+-Numero real
+
+Salida:
+-Numero real
+
+Proceso:
+
+1. Leer el numero.
+2. Dividir el numero entre 1.
+3. Tomar el valor absoluto del residuo o modulo de la operacion.
+4. Mostrar el resultado.
+
